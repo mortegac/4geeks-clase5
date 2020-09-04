@@ -7,7 +7,7 @@
     <title>Proyecto Colaborativo</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -38,26 +38,35 @@
     <div class="section">
         <div class="row">
             <div class="col-12">
-               <h1> Contacto</h1>
+                <h1 class="text-left formH1">Contacto</h1>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="containerText">
-                    <p >El cuadro a continuación te permitirá dejar un mensaje el cual llegará directamente a nuestro correo. Se supone que este párrafo debe ser largo como para tener más lineas pero realmente a nadie le interesa lo que dice acá. Debes ingresar tu correo para que podamos contactarte de vuelta y resolver tus dudas</p>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="containerText">
+                    <p class="text-justify">El cuadro a continuación te permitirá dejar un mensaje el cual llegará
+                        directamente a nuestro correo. Se supone que este párrafo debe ser largo como para tener más
+                        lineas pero realmente a nadie le interesa lo que dice acá. Debes ingresar tu correo para que
+                        podamos contactarte de vuelta y resolver tus dudas</p>
 
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <form class="jumbotron">
+                    <div class="form-group ">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <form>
 
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Example textarea</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                    </form>
-                </div>
+                    <div class="form-group containerTextarea">
+                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </form>
             </div>
         </div>
 

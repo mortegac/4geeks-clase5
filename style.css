@@ -1,5 +1,14 @@
-.containerText{
-width: 60%;
-height: 40%;    
-margin: 5% 5% 5% 5%; 
-}
+.formH1{
+    margin: 1% 3%; 
+   }
+   .containerText{
+   width: 60%;
+   height: 40%;    
+   margin: 1% 5% 3% 3%; 
+   }
+   .containerTextarea{
+   width: 60%;
+   height: 40%;    
+   margin: 1% 5% 3% 3%; 
+   }
+   
