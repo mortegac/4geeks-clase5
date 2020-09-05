@@ -1,7 +1,12 @@
-.card {
-    width: 18rem;
-}
-
+/* Agregado por @Alejo para centrar titulo */
 .display-1 {
     text-align: center;
+}
+
+/* Agregado por @Alejo para darle estilo a las imagenes de las card*/
+#imagePortafolio {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
 }
