@@ -1,0 +1,26 @@
+.formH1{
+    margin: 1% 3%; 
+   }
+   .containerText{
+   width: 60%;
+   height: 40%;    
+   margin: 1% 5% 3% 3%; 
+   }
+   .containerForm{
+   width: 80%;
+   height: 80%;    
+   margin: 1% 5% 3% 3%; 
+   }
+   
+/* Agregado por @Alejo para centrar titulo */
+.display-1 {
+    text-align: center;
+}
+
+/* Agregado por @Alejo para darle estilo a las imagenes de las card*/
+#imagePortafolio {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}

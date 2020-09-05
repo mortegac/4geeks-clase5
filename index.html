@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Colaborativo</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 <header>
     <div>
@@ -14,12 +18,145 @@
 </header>
 
     <div class="container">
-        <nav>
-            <span>Acá deberia ir el menu</span>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-secondary" href="#">About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
         </nav>
-        <h1>Proyecto colaborativo</h1>
-       
-    
+
+        <div class="row">
+            <div class="col-12">
+                <h1 class="display-1">One page wonder</h1>
+            </div>
+        </div>
+        <!--Aquí el primer heading-->
+        <div class="row justify-content-md-center">
+            <div class="col-md-7 col-sm-12">
+                <h2 class="d-inlineblock mb-3">This First Heading <span class="text-secondary">Will Catch Your
+                        Eye</span>
+                </h2>
+                <p class="d-inlineblock">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus esse harum
+                    odio dolor, blanditiisillum, repellendus, quos facilis consequatur repudiandae doloribus tenetur
+                    pariatur enim eius exercitationem necessitatibus sunt iste eaque.</p>
+            </div>
+            <div class="col-md-5 col-sm-12">
+                <img src="./assets/1.jpg" alt="image" class="float-right rounded-circle img-fluid">
+            </div>
+        </div>
+        <!--fin del primer heading-->
+
+        <!--Segunda imagen-->
+        <div class="row">
+            <div class="col-4">
+                <img class="rounded-circle" src="assets/2.jpg" alt="">
+            </div>
+            <div class="col-8">
+                <h1>The Second Heading <span class="text-secondary">is Pretty Cool Too</span></h1>
+                <p>Nam ac est ac urna imperdiet rhoncus. Vestibulum accumsan vel nisi sed finibus. Morbi porta dui
+                    at malesuada mattis. Ut tristique tortor eu mattis rutrum. Aliquam viverra urna et massa luctus,
+                    eu cursus elit faucibus. Maecenas sed purus eros. Integer leo sapien, blandit at orci imperdiet,
+                    sodales pharetra dui. </p>
+            </div>
+        </div>
+        <!--fin de segunda imagen-->
+
+        <!--
+            <div class="col-4">
+
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="https://picsum.photos/id/2/700/400" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Lorem Ipsum</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non mi
+                        vitae erat fringilla egestas aliquet sit amet nulla. In molestie luctus risus non posuere.
+                        Pellentesque a ullamcorper ligula.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://picsum.photos/id/237/700/400" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card alineada a la derecha</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                </div>
+            </div>
+        </div>
+-->
+<!--comented previous form data RG-->
+<!-- <form>
+    <div class="form-group">
+        <label for="exampleInputEmail1">email address</label>
+        <div class="form-group">
+           <label for="message">YourMessage</label>
+           <input type="password" class="form-control" id="exampleInputPassword1">
+         </div>
     </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+    </div> -->
+
+    <!--form RG-->
+    <div class="section">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-left formH1">Contacto</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="containerText">
+                        <p class="text-justify">El cuadro a continuación te permitirá dejar un mensaje el cual llegará
+                            directamente a nuestro correo. Se supone que este párrafo debe ser largo como para tener más
+                            lineas pero realmente a nadie le interesa lo que dice acá. Debes ingresar tu correo para que
+                            podamos contactarte de vuelta y resolver tus dudas</p>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <form class="jumbotron containerForm">
+                        <div class="form-group row">
+                            <label for="exampleInputEmail1" class="col-sm-2 col-form-label"><strong>Email address</strong> </label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+    
+                        </div>
+    
+                        <div class="form-group  row">
+                            <label for="exampleFormControlTextarea1" class="col-sm-2"><strong>Example textarea</strong> </label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+                            </div>
+                          
+                        </div>
+                      <button type="submit" class="btn btn-primary mb-2 float-right">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>    
 </body>
+
+
 </html>
