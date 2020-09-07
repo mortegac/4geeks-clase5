@@ -24,3 +24,27 @@
     border-radius: 100%;
     object-fit: cover;
 }
+
+/* Agregado por @Alejo para darle estilo a la Card Izquierda */
+.cardLeft {
+    width: 350px;
+    height: 300px;
+}
+
+/* Agregado por @Alejo para darle estilo a la Card Izquierda */
+.cardLeft .card-body {
+    padding: 15px 0;
+    text-align: justify;
+}
+.cardLeft .card-title {
+    color: blue;
+}
+
+/* Agregado por @Alejo para dar separacion entre Row */
+.linea {
+    border-top: 1px solid rgb(226, 224, 224);
+    height: 2px;
+    max-width: auto;
+    padding: 0;
+    margin: 70px auto 70px auto;    
+}
